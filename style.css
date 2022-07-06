@@ -5,6 +5,9 @@ body{
 h1{
   font-size: 50px;
 }
+section{
+  margin-bottom: 100px;
+}
 .text-box{
   width: 90%;
   color: white;
@@ -24,6 +27,49 @@ h1{
   text-decoration: none;
   background-image: linear-gradient(red,tomato);
   padding: 15px 35px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.text-contener{
+  text-align: center;
+}
+.amount-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.half-width{
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 0px solid rgb(165, 163, 163);
+  width: 80px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 5px;
+}
+
+.border-contener{
+  border: 3px solid red;
+  background: rgb(231, 179, 168);
+  color: red;
+}
+
+input{
+  width: 40%;
+  text-align: center;
+  border: 0;
+  outline: 0;
+  padding: 8px;
+  border-bottom: 2px solid gray;
+  box-shadow: none;
+  color: gray;
+}
+.link-button-1{
+  text-decoration: none;
+  background-image: linear-gradient(red,tomato);
+  padding: 10px 20px;
   color: white;
   font-weight: 700;
   border-radius: 5px;
