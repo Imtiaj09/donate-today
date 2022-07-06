@@ -5,6 +5,9 @@ body{
 h1{
   font-size: 50px;
 }
+h3{
+  font-size: 40px;
+}
 section{
   margin-bottom: 100px;
 }
@@ -73,4 +76,41 @@ input{
   color: white;
   font-weight: 700;
   border-radius: 5px;
+}
+.container-item{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 300px;
+  margin: 5px;
+}
+.card img{
+  height: 40px;
+  width: 40px;
+}
+
+#food-for-family{
+  background-color: cadetblue;
+}
+
+#shelter-for-family{
+  background-color: palevioletred;
+}
+#education-for-child{
+  background-color: skyblue;
+}
+
+.donation-items{
+  display: flex;
+}
+.half-width-1{
+  width: 50%;
+}
+.half-width-1 img{
+  width: 80%;
 }
