@@ -114,3 +114,55 @@ input{
 .half-width-1 img{
   width: 80%;
 }
+
+.get-updates{
+  text-align: center;
+}
+
+.box{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vs;
+}
+
+.form-box{
+  padding: 50px;
+  border-radius: 5px;
+  background: white;
+  background-color: antiquewhite;
+
+  box-shadow: 10px 10px 15px white,-10px -10px 15px white;
+}
+.form-box input{
+  font-size: 18px;
+  color: black;
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  background: whitesmoke;
+}
+.form-box button{
+  color: white;
+  padding: 10px 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background: red;
+  cursor: pointer;
+  transition: .3s;
+}
+.text-items{
+  font-size: 25px;
+  color: red;
+}
+footer{
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
